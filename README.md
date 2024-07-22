@@ -1,4 +1,4 @@
-# TBC_bank-demo
+# percy-java-demo
 STEP 1
 
 Create a Percy project
