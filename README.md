@@ -8,7 +8,7 @@ For details on creating a project, see [Create a Percy project](https://www.brow
 
 STEP 2 
 
-Openn terminal and hit (mvn install) 
+Openn terminal and hit ``mvn install``
 
 STEP 3
 
@@ -17,7 +17,7 @@ Run the given command to set PERCY_TOKEN as an environment variable:
 
 Windows CMD
 Copy snippet
-set PERCY_TOKEN="<your token here>"
+set ``PERCY_TOKEN="<your token here>"``
 
 STEP 4
 
@@ -25,13 +25,13 @@ Install Percy dependencies
 Install the following components to establish the integration environment for your test suite.
 
 Copy snippet
-npm install --save-dev @percy/cli
+``npm install --save-dev @percy/cli``
 
 STEP 5
 
 Hit command 
 
-npx percy exec -- mvn test -P sample-test
+``npx percy exec -- mvn test -P sample-test``
 
 for more info please reffer 
 
